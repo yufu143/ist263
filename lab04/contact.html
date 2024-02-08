@@ -24,8 +24,16 @@
         <form action="" method="post">
             <label for="fullname">Name:</label><br>
             <input type="text" id="fullname" name="fullname"><br>
-
-
+            <label for="manner">Manner of Question/Concern:</label>
+            <select id="manner" name="manner">
+                <option></option>
+                <option value="personal">Personal</option>
+                <option value="work">Work-Related</option>
+                <option value="school">School-Related</option>
+            </select><br>
+            <label for="question">Do you have any questions or concerns?</label> 
+            <textarea id="question" name="question" rows="3" cols="60"></textarea>
+            <input type="submit" value="Send Form">
 
         </form>
     

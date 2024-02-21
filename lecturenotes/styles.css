@@ -2,9 +2,8 @@ body {
     color: yellow;
     font-size: 4em;
     }
-
 p {
-    color: red;  
-    }
+   color: red;
+}
 
 /* above we used the em unit of measurement, 1 is default browser size, anything larger is a percentage more */

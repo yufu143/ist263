@@ -9,10 +9,12 @@ body {
 p {
    color: red;
    line-height: 2em;
-
+   text-align: center;
     /* line height controls space between lines */
 
   }
+
+
 
 ul {
     color: green;

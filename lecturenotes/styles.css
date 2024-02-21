@@ -1,7 +1,7 @@
 body {
     color: yellow;
     font-size: 4em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
     /* fonts lload of the user's computer, if the font isn't on their machine, it will not load */

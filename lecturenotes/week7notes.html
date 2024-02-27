@@ -9,7 +9,13 @@
             a {color: #0000ff;}
             a:hover {color: red;}
             /* above is a pseudo selector, hover is when mouse rolls overs */
-            body {background-color: #aeffae}
+            body {background-color: #aeffae;
+                background-image: url("otto.jpg");
+                /* background can be entire page or just one smaller element */
+            }
+            .bgclass {
+                background-image: url("small-otto.png")
+            }
         </style>
     </head>
     <body>
@@ -18,6 +24,11 @@
             <h2>Pseudo Selectors</h2>
                 <a href="http://www.google.com">Google</a><br>
                 <a href="http://www.amazon.com">Amazon</a>
+            <h2>Backgrounds</h2>
+                <p class="bgclass">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Expedita, ipsam quam ipsum architecto tenetur, est saepe qui 
+                autem rerum omnis impedit? Sapiente cumque possimus dolorem 
+                vitae adipisci, similique doloribus doloremque?</p>
 
 
     </body>

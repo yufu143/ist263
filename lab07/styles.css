@@ -5,9 +5,9 @@ body {
 
 h1, h2, h3 {color: #EEE3CB;}
 
-p, ul {color: #D5C5B9;}
+p, ul, label {color: #D5C5B9;}
 
-a {color: #5F6F52;}
+a {color: #9ca49c;}
 
 nav {background-color: #A9907E;}
 

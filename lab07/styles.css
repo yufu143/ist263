@@ -9,18 +9,12 @@ p {color: #675D50;}
 
 a {color: #5F6F52;}
 
-a:hover {color: #ef3000}
+nav {background-color: #A9907E;}
 
-/* e.	Site Navigation Background
-#A9907E
+nav a {color: #D1B98F;}
 
-f.	Site Navigation Highlight Color
-#F3DEBA
+nav a:hover {background-color:#FEFAE0;}
 
-g.	Site Navigation Link Color
-#FEFAE0
-
-*/
 
 
 .evenrow {background-color: #FAEBD7;}

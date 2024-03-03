@@ -3,9 +3,9 @@ body {
     background-color: #607274;
     }
 
-h1, h2, h3 {color: #B2A59B;}
+h1, h2, h3 {color: #EEE3CB;}
 
-p, ul {color: #AA9B88;}
+p, ul {color: #B2A59B;}
 
 a {color: #5F6F52;}
 
@@ -13,7 +13,7 @@ nav {background-color: #A9907E;}
 
 nav a {color: #D1B98F;}
 
-nav a:hover {background-color:#FEFAE0;}
+nav a:hover {background-color:#FFFCE5;}
 
 nav {padding: 10px;}
 

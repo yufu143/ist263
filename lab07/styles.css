@@ -15,10 +15,12 @@ nav a {color: #D1B98F;}
 
 nav a:hover {background-color:#FEFAE0;}
 
+nav {padding: 10px;}
 
+nav {margin-bottom: 30px;}
 
 .evenrow {background-color: #FAEBD7;}
 
-h1 {font-size: 1.65em}
+h1 {font-size: 1.65em;}
 
-h2 {font-size:1.25em}
+h2 {font-size:1.25em;}

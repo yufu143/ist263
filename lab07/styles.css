@@ -1,0 +1,30 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #607274;
+    }
+
+h1, h2, h3 {color: #B2A59B;}
+
+p {color: #675D50;}
+
+a {color: #5F6F52;}
+
+a:hover {color: #ef3000}
+
+/* e.	Site Navigation Background
+#A9907E
+
+f.	Site Navigation Highlight Color
+#F3DEBA
+
+g.	Site Navigation Link Color
+#FEFAE0
+
+*/
+
+
+.evenrow {background-color: #FAEBD7;}
+
+h1 {font-size: 1.65em}
+
+h2 {font-size:1.25em}

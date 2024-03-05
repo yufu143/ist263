@@ -5,20 +5,18 @@
         <title>Unit 8 Flex</title>
         <meta charset="UTF-8">
         <style>
-            .firstimage {
-                float: left;
-                margin: 20px 20px 20px 0px; /* top, right, bottom, left margins */
-                /* margin-left, margin-bottom... */
+            .box {display: flex;}
+            /* this styles all div tags inside the row1 class */
+            .box div{
+                flex:1 ; 
             }
-            .clearfloat {clear: both;}
-            .secondimage {float: right;} 
         </style>
     </head>
     <body>
 
-        <nav>
+        <div class="box">
 
-            <div>
+            <div class="firstcol">
                 <p>1</p>
             </div>
             <div>
@@ -31,9 +29,7 @@
                 <p>4</p>
             </div>
             
-        </nav>
-
-
+        </div>
 
 
     </body>

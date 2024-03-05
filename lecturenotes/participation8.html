@@ -5,13 +5,12 @@
         <title>Unit 8 Flex</title>
         <meta charset="UTF-8">
         <style>
-            div {border: 1px solid black;}
+            div {border: 1px solid black;
+                 padding: 0px 0px 0px 5px}
             .box {display: flex;}
             /* this styles all div tags inside the row1 class */
-            .box div{
-                flex:1 ; 
-            }
             .firstcol {flex:2}
+            .notfirst {flex:1}
         </style>
     </head>
     <body>
@@ -21,13 +20,13 @@
             <div class="firstcol">
                 <p>1</p>
             </div>
-            <div>
+            <div class="notfirst">
                 <p>2</p>
             </div>
-            <div>
+            <div class="notfirst">
                 <p>3</p>
             </div>
-            <div>
+            <div class="notfirst">
                 <p>4</p>
             </div>
             

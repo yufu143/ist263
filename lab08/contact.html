@@ -16,8 +16,10 @@
             .formap {display: flex; background-color: #56645E; border-radius: 1em; margin-top: 15px; margin-left: 10px; margin-right: 10px; margin-bottom: 15px;}
             .formap div {padding: 25px;}
             .form, .map {margin: 5px;}
-            .form {flex: 0.75; border: 2px solid #EEE3CB; margin: 5px; border-radius: 1em;}
-            .map {flex: 1; margin-left: 20px;}
+            .form {flex: 1; border: 2px solid #EEE3CB; margin: 5px; border-radius: 1em;}
+            .map {flex: 1;}
+
+            .formed {margin-top: 10px;}
         </style>
     </head>
     <body>
@@ -41,7 +43,7 @@
         </div>
         <div class="formap">
             <div class="form">
-                <form action="https://formspree.io/f/xbjngegw" method="post">
+                <form action="https://formspree.io/f/xbjngegw" method="post" class="formed">
                     <label for="fullname">Name:</label><br>
                     <input type="text" id="fullname" name="fullname"><br>
                     <label for="manner">Type of Question/Concern:</label>

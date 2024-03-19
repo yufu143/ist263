@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exam 2 Practice Short Answer</title>
+        <style>
+            .exam {display: flex;}
+            .hel {flex: 2;}
+            .wor {flex: 1;}
+            div {border: 1px solid black;}
+        </style>
+
+    </head>
+    <body>
+        <div class="exam">
+            <div class="hel">Hello</div>
+            <div class="wor">World</div>
+        </div>>
+    </body>

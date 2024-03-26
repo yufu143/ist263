@@ -19,7 +19,14 @@
             @media only screen and (max-width: 600px)
             {
                 body {background-color: #76e1bf;}
-                .article3 {display: none;}
+                .large {display: none;}
+                /*.article3 {display: none;}*/
+            }
+
+            @media only screen and (min-width: 601px)
+            {
+                .small {display: none;}
+                /*.article3 {display: none;}*/
             }
 
 		</style>
@@ -28,6 +35,12 @@
         <h1>Flexbox Practice</h1>
         
         <h2>The Flexbox Part</h2>
+
+        <div>
+            <div class="large">This is for a large screen.</div>
+            <div class="small">This is for a small screen.</div>
+        </div>
+
         <div class="part2">
             <article class="article1">
                 <img src="http://laferger.github.io/ist263/images/unit81.jpg" class="p2img1" alt="fruit">

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Contact</title>
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            .title {margin-left: 10px;}
+            
+            .adlink {display: flex; background-color: #56645E; border-radius: 1em; margin-left: 10px; margin-right: 10px;}
+            .adlink div {padding: 25px;}
+            .add, .linked {margin: 5px;}
+            .add {flex: 1;}
+            .linked {flex: 1;}
+
+            .formap {display: flex; background-color: #56645E; border-radius: 1em; margin-top: 15px; margin-left: 10px; margin-right: 10px; margin-bottom: 15px;}
+            .formap div {padding: 25px;}
+            .form, .map {margin: 5px;}
+            .form {flex: 1; border: 2px solid #EEE3CB; margin: 5px; border-radius: 1em;}
+            .map {flex: 1;}
+
+            .formed {margin-top: 10px;}
+        </style>
+    </head>
+    <body>
+        <nav>
+            <a href="../lab08/">Home</a> |
+            <a href="../lab08/skills">Skills</a> |
+            <a href="../lab08/contact">Contact</a>
+        </nav>
+        <h1 class="title">Contact</h1>
+        <div class="adlink">
+            <div class="add">    
+                <h2>Address</h2>
+                <p>Yujia Fu<br>
+                School of Information Studies<br>
+                343 Hinds Hall, Syracuse, NY 13244</p>
+            </div>
+            <div class="linked">
+                <p><a href="mailto:yfu143@g.syr.edu" target="_blank">Send Me an Email at yfu143@g.syr.edu</a></p>
+                <p><a href="https://www.linkedin.com/in/yujia-fu" target="_blank"><img src="../images/logo_sized.png" alt="LinkedIn Logo"></a> <a href="https://www.linkedin.com/in/yujia-fu" target="_blank">My LinkedIn Profile</a></p>
+            </div>
+        </div>
+        <div class="formap">
+            <div class="form">
+                <form action="https://formspree.io/f/xbjngegw" method="post" class="formed">
+                    <label for="fullname">Name:</label><br>
+                    <input type="text" id="fullname" name="fullname"><br>
+                    <label for="manner">Type of Question/Concern:</label>
+                    <select id="manner" name="manner">
+                        <option value="personal">Personal</option>
+                        <option value="work">Work</option>
+                        <option value="school">School</option>
+                        <option value="random">Random</option>
+                    </select><br>
+                    <label for="question">Do you have any questions or concerns?</label><br>
+                    <textarea id="question" name="question" rows="3" cols="60"></textarea><br>
+                    <input type="submit" value="Send Form"><br>
+                </form>
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d46652.90682944861!2d-76.1225231!3d43.0454989!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f39fca155555%3A0xc1c69e4f641652c1!2sSyracuse%20University%20School%20of%20Information%20Studies%20(iSchool)!5e0!3m2!1sen!2sus!4v1706838740195!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>      
+    </body>
+</html>

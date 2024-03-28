@@ -1,0 +1,27 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #71857C;
+    }
+
+h1, h2, h3 {color: #EEE3CB;}
+
+p, ul, label, div {color: #D5C5B9;}
+
+a {color: #C0D0C0;}
+
+nav {background-color: #45524C;}
+
+nav a {color: #E5CA9B;}
+
+nav a:hover {background-color: #FFFCE5;}
+
+nav {padding: 10px;}
+
+nav {margin-bottom: 30px;}
+
+.evenrow {background-color: #E0CFB9;}
+
+h1 {font-size: 1.65em;}
+
+h2 {font-size:1.25em;}
+

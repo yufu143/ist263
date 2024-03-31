@@ -29,7 +29,7 @@ h2 {font-size:1.25em;}
     {
         nav a {display: block;
             max-width: 100%;
-            margin-bottom: 20px;}
+            padding: 17px;}
 
         nav span {display: none;}
     } 

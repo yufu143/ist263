@@ -27,5 +27,7 @@ h2 {font-size:1.25em;}
 
 @media only screen and (min-width: 768px)
     {
-        nav a {flex-wrap: wrap; max-width: 100%;}
+        nav a {display: block;
+            flex-wrap: wrap; 
+            max-width: 100%;}
     } 

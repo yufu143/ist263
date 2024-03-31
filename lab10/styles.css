@@ -30,4 +30,6 @@ h2 {font-size:1.25em;}
         nav a {display: block;
             flex-wrap: wrap; 
             max-width: 100%;}
+
+        nav span {display: none;}
     } 

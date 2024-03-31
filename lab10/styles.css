@@ -30,7 +30,7 @@ h2 {font-size: 1.25em;}
         nav a {display: block;
             flex-wrap: wrap;
             max-width: 100%;
-            padding: 10px;
+            padding: 5px;
             }
 
         nav span {display: none;}

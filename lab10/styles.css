@@ -28,7 +28,8 @@ h2 {font-size:1.25em;}
 @media only screen and (min-width: 600px)
     {
         nav a {display: block;
-            max-width: 100%;}
+            max-width: 100%;
+            margin-bottom: 10px;}
 
         nav span {display: none;}
     } 

@@ -23,13 +23,13 @@ nav {margin-bottom: 30px;}
 
 h1 {font-size: 1.65em;}
 
-h2 {font-size:1.25em;}
+h2 {font-size: 1.25em;}
 
 @media only screen and (min-width: 600px)
     {
         nav a {display: block;
             max-width: 100%;
-            padding: 17px;}
+            }
 
         nav span {display: none;}
     } 

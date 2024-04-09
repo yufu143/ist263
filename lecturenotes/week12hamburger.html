@@ -9,13 +9,16 @@
         #hamicon {width: 40px;}
         #close {display: none;}
         nav {background-color: #f1c097;}
-        a {margin: 5px;
+        a {/*margin: 5px;*/
             padding: 15px;}
         @media only screen and (max-width: 800px) {
             #hamicon {display: block;}
             #close {display: block;}
-            a {display: block;} /* change links to block that makes them take up full width */
+            a {border: 1px solid black;
+                display: block;} /* change links to block that makes them take up full width */
             #navlinks {display: none;}
+            .row {display: flex;
+                    justify-content: space-between;}
         }
     </style>
     <script>
@@ -30,14 +33,14 @@
 
 </head>
 <body>
-    <div>
+    <div class="row">
         <img id="hamicon" onclick="showNav();" src="http://laferger.github.io/ist263/images/hamburger.png" alt="hamburger icon">
         <p onclick="hideNav();" id="close">X</p>
     </div>
     <nav id="navlinks">
-        <a href="about.html"></a>
-        <a href="skills.html"></a>
-        <a href="contact.html"></a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="contact.html">Contact</a>
     </nav>
     <h1></h1>
     <h2></h2>

@@ -9,13 +9,13 @@ nav {
 
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #173995;
+    background-color: #8890a8;
 }
 
 h1, h2, h3 {
     color: #ffd500;
 }
-
+/*
 @media only screen and (max-width: 600px)
     {
         nav a {display: block;
@@ -26,3 +26,4 @@ h1, h2, h3 {
 
         nav span {display: none;}
     } 
+*/

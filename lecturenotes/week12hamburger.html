@@ -13,13 +13,29 @@
             #hamicon {display: block;}
             #close {display: block;}
             a {display: block;} /* change links to block that makes them take up full width */
+            #navlinks {display: none;}
         }
     </style>
+    <script>
+        function showNav () {
+            document.getElementById("hamicon").style.display = "block";
+        }
+    </script>
+
+
 </head>
 <body>
     <div>
         <img id="hamicon" src="http://laferger.github.io/ist263/images/hamburger.png" alt="hamburger icon">
         <p id="close">X</p>
     </div>
+    <nav id="navlinks">
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+    </nav>
+
+
+
 </body>
 </html>

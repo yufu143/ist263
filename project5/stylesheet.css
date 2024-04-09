@@ -1,7 +1,17 @@
-h {background-color: #789173;}
+h {
+    background-color: #789173;
+}
 
-nav {background-color: #acc0d3;
-    font-size: 1.5em;}
+nav {
+    background-color: #acc0d3;
+    font-size: 1.5em;
+}
 
-body {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #e5ff00;}
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #e5ff00;
+}
+
+h1, h2, h3 {
+    color: #ff00c3;
+}

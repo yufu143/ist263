@@ -20,21 +20,25 @@
         function showNav () {
             document.getElementById("navlinks").style.display = "block";
         }
+        function hideNav () {            
+            document.getElementById("navlinks").style.display = "none";
+        }
     </script>
 
 
 </head>
 <body>
     <div>
-        <img id="hamicon" src="http://laferger.github.io/ist263/images/hamburger.png" alt="hamburger icon">
-        <p id="close">X</p>
+        <img id="hamicon" onclick="showNav();" src="http://laferger.github.io/ist263/images/hamburger.png" alt="hamburger icon">
+        <p onclick="hideNav();" id="close">X</p>
     </div>
     <nav id="navlinks">
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
+        <a href="about.html"></a>
+        <a href="skills.html"></a>
+        <a href="contact.html"></a>
     </nav>
-
+    <h1></h1>
+    <h2></h2>
 
 
 </body>

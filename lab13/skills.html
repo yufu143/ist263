@@ -5,6 +5,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Skills</title>
         <style> 
+            #skiptocontent {
+                position: absolute;
+                background-color: #6660a5;
+                color: #ffffff;
+                padding: 8px;
+                text-decoration: none;
+                border: 1px solid #ffa500;
+                top: 10px;
+                left: -999px;
+            }
+            #skiptocontent:focus {
+                position: absolute;
+                left: 10px;
+            }
+            
             td, th {border: 1px solid black;}
             .title {text-align: center;}
             .sent {text-align: left;
@@ -34,10 +49,11 @@
     <body>
         
         <nav>
+            <a id="skip-to-content" href="#content">Skip to Content</a><br>
             <a href="../lab10/">Home</a> <span>|</span> <a href="../lab10/skills">Skills</a> <span>|</span> <a href="../lab10/contact">Contact</a>
         </nav>
 
-        <div class="text">
+        <div id="content" class="text">
             <h1 class="title">General Skills</h1>
                 <p class="sent">Throughout my education, I've learned many things. During my time at Syracuse University, I've learned many technical skills such as programming languages, database management, and more. Below I've listed a few of the jobs and skills I've acquired throughout my life.</p>
         </div>

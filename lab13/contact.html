@@ -6,6 +6,21 @@
         <title>Contact</title>
         <link rel="stylesheet" href="styles.css">
         <style>
+            #skiptocontent {
+                position: absolute;
+                background-color: #6660a5;
+                color: #ffffff;
+                padding: 8px;
+                text-decoration: none;
+                border: 1px solid #ffa500;
+                top: 10px;
+                left: -999px;
+            }
+            #skiptocontent:focus {
+                position: absolute;
+                left: 10px;
+            }
+
             .title {margin-left: 10px;}
             
             .adlink {display: flex; background-color: #56645E; border-radius: 1em; margin-left: 10px; margin-right: 10px;}
@@ -25,9 +40,10 @@
     </head>
     <body>
         <nav>
+            <a id="skip-to-content" href="#content">Skip to Content</a><br>
             <a href="../lab10/">Home</a> <span>|</span> <a href="../lab10/skills">Skills</a> <span>|</span> <a href="../lab10/contact">Contact</a>
         </nav>
-        <h1 class="title">Contact</h1>
+        <h1 id="content" class="title">Contact</h1>
         <div class="adlink">
             <div class="add">    
                 <h2>Address</h2>

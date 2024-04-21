@@ -1,6 +1,6 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #71857C;
+    background-color: #38413d;
     }
 
 h1, h2, h3 {color: #ffffff;}
@@ -11,11 +11,11 @@ p {font-size: 1em;}
 
 a {color: #fff2e0;}
 
-nav {background-color: #45524C;}
+nav {background-color: #000000;}
 
 nav a {color: #fffaf1;}
 
-nav a:hover {background-color: #f2d91d;}
+nav a:hover {background-color: #ffb347;}
 
 nav {padding: 10px;}
 

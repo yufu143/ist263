@@ -15,7 +15,7 @@ body {
 h1, h2, h3 {
     color: #ffc400;
 }
-/*
+
 @media only screen and (max-width: 600px)
     {
         nav a {display: block;
@@ -26,4 +26,3 @@ h1, h2, h3 {
 
         nav span {display: none;}
     } 
-*/

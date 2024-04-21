@@ -3,17 +3,17 @@ body {
     background-color: #71857C;
     }
 
-h1, h2, h3 {color: #6b6251;}
+h1, h2, h3 {color: #ffffff;}
 
-p, ul, label, div {color: #775840;}
+p, ul, label, div {color: #ffffff;}
 
 p {font-size: 1em;}
 
-a {color: #535353;}
+a {color: #fff2e0;}
 
 nav {background-color: #45524C;}
 
-nav a {color: #ffa200;}
+nav a {color: #fffaf1;}
 
 nav a:hover {background-color: #f2d91d;}
 

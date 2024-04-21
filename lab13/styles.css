@@ -3,9 +3,9 @@ body {
     background-color: #38413d;
     }
 
-h1, h2, h3 {color: #ffffff;}
+h1, h2, h3 {color: #fff1d1;}
 
-p, ul, label, div, span {color: #ffffff;}
+p, ul, label, div, span {color: #fff7e5;}
 
 p {font-size: 1em;}
 
@@ -15,7 +15,7 @@ nav {background-color: #000000;}
 
 nav a {color: #fffaf1;}
 
-nav a:hover {background-color: #ffb347;}
+nav a:hover {background-color: #badbd7;}
 
 nav {padding: 10px;}
 

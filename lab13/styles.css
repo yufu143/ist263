@@ -3,19 +3,19 @@ body {
     background-color: #71857C;
     }
 
-h1, h2, h3 {color: #EEE3CB;}
+h1, h2, h3 {color: #6b6251;}
 
-p, ul, label, div {color: #D5C5B9;}
+p, ul, label, div {color: #775840;}
 
 p {font-size: 1em;}
 
-a {color: #C0D0C0;}
+a {color: #535353;}
 
 nav {background-color: #45524C;}
 
-nav a {color: #E5CA9B;}
+nav a {color: #ffa200;}
 
-nav a:hover {background-color: #FFFCE5;}
+nav a:hover {background-color: #f2d91d;}
 
 nav {padding: 10px;}
 

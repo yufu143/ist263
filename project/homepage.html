@@ -5,8 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Nelson Park Branch Library</title>
     <style>
-    .recs {display: flex;
+    .recs1, .recs2 {display: flex;
         max-width: 100%;
+        justify-content: space-around;
     }
     table, th, td {border: 1px solid #000000;
         background-color: #e1b158;
@@ -35,86 +36,80 @@
                 Check out some book and audiobook recommendations from our resident staff!
             </h3>
             <div class="recs">
-                <div>
-                    <img src="starsea.JPG" alt="A simple drawn cover of Erin Morgenstern's The Starless Sea" width="190" height="284">
-                    <p>
-                    Hannah Spector
-                        Recommendation: The Starless Sea 
-                        Author: Erin Morgenstern
-                        Genre: Fiction, fantasy
-                        Rating: 4/5 stars
-                    </p>
-                </div>    
-                <div>    
-                    <img src="dressprince.JPG" alt="A simple drawn cover of Jen Wang's The Prince and the Dressmaker" width="190" height="284">
-                    <p>
-                    Kimberly McGilberry
-                        Recommendation: The Prince and the Dressmaker
-                        Author: Jen Wang
-                        Genre: Fiction, fairy tale
-                        Rating: 5/5 stars
-                    </p>
+                <div class="recs1">    
+                    <div>
+                        <img src="starsea.JPG" alt="A simple drawn cover of Erin Morgenstern's The Starless Sea" width="190" height="284">
+                        <p>
+                        Hannah Spector
+                            Recommendation: The Starless Sea 
+                            Author: Erin Morgenstern
+                            Genre: Fiction, fantasy
+                            Rating: 4/5 stars
+                        </p>
+                    </div>    
+                    <div>    
+                        <img src="dressprince.JPG" alt="A simple drawn cover of Jen Wang's The Prince and the Dressmaker" width="190" height="284">
+                        <p>
+                        Kimberly McGilberry
+                            Recommendation: The Prince and the Dressmaker
+                            Author: Jen Wang
+                            Genre: Fiction, fairy tale
+                            Rating: 5/5 stars
+                        </p>
+                    </div>
+                    <div>
+                        <img src="catcher.JPG" alt="A simple drawn cover of J.D. Salinger's The Catcher in the Rye" width="190" height="284">
+                        <p>
+                        Jimothy Orville 
+                            Title: The Catcher in the Rye
+                            Author: J.D. Salinger
+                            Genre: Fiction, Coming-of-age
+                            Rating: 4.5/5 stars
+                        </p>
+                    </div>
+                    <div>
+                        <img src="hamlet.JPG" alt="A simple drawn cover of Shakespeare's Hamlet" width="190" height="284">
+                        <p>
+                        Gabriel Sharma
+                            Title: Hamlet
+                            Author: William Shakespeare
+                            Genre: Fiction, play, tragedy
+                            Rating: 4.25/5 stars
+                        </p>
+                    </div>
                 </div>
-                <div>
-                    <img src="catcher.JPG" alt="A simple drawn cover of J.D. Salinger's The Catcher in the Rye" width="190" height="284">
-                    <p>
-                    Jimothy Orville 
-                        Title: The Catcher in the Rye
-                        Author: J.D. Salinger
-                        Genre: Fiction, Coming-of-age
-                        Rating: 4.5/5 stars
-                    </p>
+                <div class="recs2">    
+                    <div>
+                        <img src="bonesknow.JPG" alt="A simple drawn cover of Stephanie Foo's What My Bones Know: A Memoir of Healing from Complex Trauma" width="190" height="284">
+                        <p>
+                        James House
+                            Title: What My Bones Know: A Memoir of Healing from Complex Trauma 
+                            Author: Stephanie Foo
+                            Genre: Nonfiction, autobiography, memoir
+                            Rating: 4.5/5 stars
+                        </p>
+                    </div>
+                    <div>
+                        <img src="hobbit.JPG" alt="A simple drawn cover of J.R.R. Tolkien's The Hobbit" width="190" height="284">
+                        <p>
+                        Noelle Tartt 
+                            Title: The Hobbit
+                            Author: J.R.R. Tolkien
+                            Genre: Fiction, fantasy, adventure
+                            Rating: 4.75/5 stars
+                        </p>
+                    </div>
+                    <div>
+                        <img src="stranger.JPG" alt="A simple drawn cover of Albert Camus' The Stranger" width="190" height="284">
+                        <p>
+                        Dirk Brothwell
+                            Title: The Stranger
+                            Author: Albert Camus
+                            Genre: Fiction, philosophy, absurdist fiction 
+                            Rating: 4.25/5
+                        </p>
+                    </div>
                 </div>
-                <div>
-                    <img src="hamlet.JPG" alt="A simple drawn cover of Shakespeare's Hamlet" width="190" height="284">
-                    <p>
-                    Gabriel Sharma
-                        Title: Hamlet
-                        Author: William Shakespeare
-                        Genre: Fiction, play, tragedy
-                        Rating: 4.25/5 stars
-                    </p>
-                </div>
-                <div>
-                    <img src="bonesknow.JPG" alt="A simple drawn cover of Stephanie Foo's What My Bones Know: A Memoir of Healing from Complex Trauma" width="190" height="284">
-                    <p>
-                    James House
-                        Title: What My Bones Know: A Memoir of Healing from Complex Trauma 
-                        Author: Stephanie Foo
-                        Genre: Nonfiction, autobiography, memoir
-                        Rating: 4.5/5 stars
-                    </p>
-                </div>
-                <div>
-                    <img src="hobbit.JPG" alt="A simple drawn cover of J.R.R. Tolkien's The Hobbit" width="190" height="284">
-                    <p>
-                    Noelle Tartt 
-                        Title: The Hobbit
-                        Author: J.R.R. Tolkien
-                        Genre: Fiction, fantasy, adventure
-                        Rating: 4.75/5 stars
-                    </p>
-                </div>
-                <div>
-                    <img src="stranger.JPG" alt="A simple drawn cover of Albert Camus' The Stranger" width="190" height="284">
-                    <p>
-                    Dirk Brothwell
-                        Title: The Stranger
-                        Author: Albert Camus
-                        Genre: Fiction, philosophy, absurdist fiction 
-                        Rating: 4.25/5
-                    </p>
-                </div>
-                <!--
-                <img src="welcome.jpg" alt="A banner with the text 'Welcome to Nelson Park Branch Library!">
-                <img src="starsea.jpg">
-                <img src="dressprince.jpg">
-                <img src="catcher.jpg">
-                <img src="hamlet.jpg">
-                <img src="bonesknow.jpg">
-                <img src="hobbit.jpg">
-                <img src="stranger.jpg">
-                -->
             </div>
         
             <h3>

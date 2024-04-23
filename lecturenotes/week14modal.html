@@ -23,14 +23,18 @@
             left: 50%;
             margin-top: -100px;
             margin-left: -100px;
+            display: none;
         }
         input {
             margin-bottom: 5px;
         }
-
         /* write CSS to position our subscribe form and hide it when the page loads here */
     </style>
     <script>
+        function openModal () {
+            document.getElementById('modal').style.display = 'block';
+        }
+
         /* add code to open and close our subscribe form */
     </script>
 </head>
@@ -46,7 +50,7 @@
         
         <p>Muffin pastry cupcake cheesecake icing lollipop. Jelly beans tootsie roll tootsie roll toffee gummi bears chocolate bar. Tart cake donut fruitcake oat cake sesame snaps jelly cookie icing. Jelly liquorice pudding biscuit cookie sweet roll tootsie roll dessert lollipop.</p>
 
-        <p><a class="button">Subscribe to Our Newsletter</a></p>
+        <p><a class="button" onclick="openModal()">Subscribe to Our Newsletter</a></p>
 
         <!-- make a subscribe form here -->
 

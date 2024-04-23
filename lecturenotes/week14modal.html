@@ -28,13 +28,19 @@
         input {
             margin-bottom: 5px;
         }
+        #close {
+            text-align: right;
+            cursor: pointer;
+        }
         /* write CSS to position our subscribe form and hide it when the page loads here */
     </style>
     <script>
         function openModal () {
             document.getElementById('modal').style.display = 'block';
         }
-
+        function closeModal () {
+            document.getElementById('modal').style.display = 'none';
+        }
         /* add code to open and close our subscribe form */
     </script>
 </head>
@@ -50,11 +56,12 @@
         
         <p>Muffin pastry cupcake cheesecake icing lollipop. Jelly beans tootsie roll tootsie roll toffee gummi bears chocolate bar. Tart cake donut fruitcake oat cake sesame snaps jelly cookie icing. Jelly liquorice pudding biscuit cookie sweet roll tootsie roll dessert lollipop.</p>
 
-        <p><a class="button" onclick="openModal()">Subscribe to Our Newsletter</a></p>
+        <p><a class="button" onclick="openModal();">Subscribe to Our Newsletter</a></p>
 
         <!-- make a subscribe form here -->
 
         <div id="modal">
+            <p id="close" onclick="closeModal();">X</p>
             <form>
                 <label for="name">Name</label><br>
                 <input type="text" id="name" name="name"><br>

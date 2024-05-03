@@ -13,17 +13,21 @@ h {
 }
 
 nav {
-    background-color: #acc0d3;
+    background-color: #8294a6;
     font-size: 1.5em;
 }
 
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #8890a8;
+    background-color: #ddded0;
 }
 
 h1, h2, h3 {
-    color: #ffebaa;
+    color: #3e4955;
+}
+
+h4, h5 {
+    color: #4e5b6a;
 }
 
 @media only screen and (max-width: 600px)

@@ -21,6 +21,10 @@ nav {
     font-size: 1.5em;
 }
 
+.navspace {
+    justify-content: space-around;
+}
+
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #ddded0;

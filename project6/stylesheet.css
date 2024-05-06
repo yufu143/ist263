@@ -51,15 +51,16 @@ h4, h5 {
         }
 
         nav span {display: none;}
+
+        .recs1, .recs2 {
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 100%;                
+            margin: 0 auto;   
+            justify-content: space-around;
+        }
     } 
 
 #iconcred {
     color: #4e5b6a;
-}
-
-.recs1, .recs2 {
-    display: flex;
-    max-width: 100%;                
-    margin: 0 auto;   
-    justify-content: space-around;
 }

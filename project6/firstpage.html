@@ -8,6 +8,20 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap" rel="stylesheet">
         <style>
+            #skiptocontent {
+                position: absolute;
+                background-color: #6660a5;
+                color: #ffffff;
+                padding: 8px;
+                text-decoration: none;
+                border: 1px solid #ffa500;
+                top: 10px;
+                left: -999px;
+            }
+            #skiptocontent:focus {
+                position: absolute;
+                left: 10px;
+            }
             h1, h2, h3 {
                 font-family: "Kanit", sans-serif;
                 font-weight: 600;
@@ -25,6 +39,7 @@
             img {flex-wrap: wrap;
                 max-width: 100%;   
             }
+
         </style>
         <link rel="stylesheet" href="stylesheet.css">
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
@@ -37,10 +52,11 @@
             <a href="../project6/homepage.html">Home</a>  <a href="../project6/firstpage.html">Library Info</a>  <a href="../project6/secondpage.html">Questions</a>
         </nav>
         <main>
-        <div>
+        <div class="map">
             
             <h1>LIBRARY MAP</h1>
                 
+                <div class="first">
                 <img src="firstfloor.JPG" alt="A simple map layout of the first floor of Nelson Park Branch Library" width="747" height="500"><br>
                 <h2>FIRST FLOOR</h2>
                     <h3>North Room</h3>
@@ -60,12 +76,16 @@
                     -	Book/Video Drop-Off<br>
                     -	Book/Material Checkout<br>
                     </p>
+                </div>
+                <div class="second">
                 <h2>SECOND FLOOR</h2>
                 <img src="secondfloor.JPG" alt="A simple map layout of the second floor of Nelson Park Branch Library" width="747" height="500"><br>
                     <p>
                     -	Computer/Research Area<br>
                     -	Beanbag Reading Area<br>
                     </p>
+                </div>
+                <div class="base">
                 <h2>BASEMENT</h2>
                 <img src="basement.JPG" alt="A simple map layout of the basement floor of Nelson Park Branch Library" width="747" height="500"><br>
                     <p>
@@ -73,6 +93,8 @@
                     -	Staff Lounge<br>
                     -	Storage Room<br>
                     </p>
+                </div>
+                <div class="key">
                 <h3>Key</h3>
                     <p>
                     -	Bathroom<br>
@@ -80,6 +102,7 @@
                     -	Elevator<br>
                     -	Emergency Exit<br>
                     </p>
+                </div>
 
         </div>
         <div class="geninfo">
